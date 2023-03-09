@@ -13,8 +13,8 @@ function App() {
         <BarraNavegacion />
         <Routes>
           <Route path="/" element={<Principal />} />
-          <Route path="/proyectos" element={<Proyectos />} />
-          <Route path="/experiencia" element={<Experiencia />} />
+          <Route path="/projects" element={<Proyectos />} />
+          <Route path="/experience" element={<Experiencia />} />
         </Routes>
         <Footer />
       </Router>

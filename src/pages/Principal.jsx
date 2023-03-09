@@ -36,14 +36,14 @@ export const Principal = () => {
             <div className='about'>
                 <h2><code>Hi, I'm Alberto</code></h2>
                 <div className='prompt'>
-                    <p><code>console.log('I'm a Frontend Developer')</code></p>
+                    <p><code>console.<span className='yellowColor'>log</span>(<span className='orangeColor'>'I'm a Frontend Developer and Graphic Designer'</span>);</code></p>
                     <IconBrandLinkedin color='whitesmoke' size={36} />
                     <IconMail color='whitesmoke' size={36} />
                     <IconBrandGithub color='whitesmoke' size={36} />
                 </div>
             </div>
             <div className='skills'>
-                <h1>Habilidades</h1>
+                <h1>Skills</h1>
                 <ol className='list'>
                     <li className='item'>
                         <h2>Front-end</h2>

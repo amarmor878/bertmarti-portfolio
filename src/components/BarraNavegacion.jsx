@@ -26,9 +26,9 @@ export const BarraNavegacion = () => {
                 </button>
             </div>
             <div className='links'>
-                <Link to="/">Principal</Link>
-                <Link to="/proyectos">Proyectos</Link>
-                <Link to="/experiencia">Experiencia</Link>
+                <Link to="/">Home</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/experience">Experience</Link>
             </div>
         </div>
     )
