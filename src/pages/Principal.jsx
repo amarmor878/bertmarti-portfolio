@@ -4,7 +4,6 @@ import React from 'react'
 //Estilos
 import { IconBrandLinkedin } from '@tabler/icons-react';
 import { IconBrandGithub } from '@tabler/icons-react';
-import { IconMail } from '@tabler/icons-react';
 import '../styled-component/principalStyled.css'
 
 //front
@@ -37,9 +36,17 @@ export const Principal = () => {
                 <h2><code>Hi, I'm Alberto</code></h2>
                 <div className='prompt'>
                     <p><code>console.<span className='yellowColor'>log</span>(<span className='orangeColor'>'I'm a Frontend Developer and Graphic Designer'</span>);</code></p>
-                    <IconBrandLinkedin color='whitesmoke' size={36} />
-                    <IconMail color='whitesmoke' size={36} />
-                    <IconBrandGithub color='whitesmoke' size={36} />
+                    <a href="https://www.linkedin.com/in/alberto-mart%C3%ADnez-moreno-9a7389264/" target={'_blank'} rel={'noreferrer'}><IconBrandLinkedin color='whitesmoke' size={36} /></a>
+                    <a href="https://github.com/amarmor878"><IconBrandGithub color='whitesmoke' size={36} target={'_blank'} rel={'noreferrer'} /></a>
+                </div>
+            </div>
+            <div className='skills'>
+                <h3>About Me</h3>
+                <div className='list'>
+                    <div className='item-p'>
+                        Hi, my name is Alberto Martínez Moreno. I'm a 🎨 graphic designer currently studying 💻 Web Development. I love learning about new 🖥️ technologies, 📚 reading and 🎧 listening to podcasts, as well as ✈️ traveling and exploring new places. I currently live in Arjonilla (Jaén), although I was born in Barcelona and have a great passion for experiencing new 🌍 cultures.
+                        My long-term goal is to become a 💻 web developer and not only that, but also to share my knowledge with others. I would love to 👨‍🏫 teach and train new people in the world of programming and help them grow. I've always had a friendly and helpful personality, and I like to help others in any way I can. I'm excited about what the future holds for me in the field of web development and I hope to make a difference in the lives of others. 😄
+                    </div>
                 </div>
             </div>
             <div className='skills'>
