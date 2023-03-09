@@ -31,19 +31,14 @@ Primero, deben abrir su terminal y navegar hasta el directorio donde quieren clo
 Luego, deben ejecutar el siguiente comando para clonar el repositorio:
 
 ```
-bash
 git clone https://github.com/amarmor878/bertmarti-portfolio.git
 ```
-
 Una vez que se haya clonado el repositorio, deben navegar al directorio del proyecto e instalar las dependencias necesarias ejecutando el siguiente comando:
 ```
-bash
 npm install
 ```
-
 Finalmente, para arrancar el proyecto en su navegador, pueden ejecutar el siguiente comando:
 ```
-bash
 npm start
 ```
 ¡Y listo! Ahora tendrán mi portfolio funcionando en su propia máquina. Si quieren editar el contenido y personalizarlo para sus propias necesidades, pueden modificar los archivos de código fuente y actualizar el sitio con su propia información. Espero que esto sea útil para cualquiera que quiera tener una referencia al crear su propio portfolio.
