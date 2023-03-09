@@ -10,8 +10,8 @@ const Proyectos = () => {
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectList'>
-        {ListaProyectos.map((proyecto) => {
-          return <TarjetaProyecto nombre={proyecto.name} imagen={proyecto.image} />
+        {ListaProyectos.map((proyecto, idx) => {
+          return <TarjetaProyecto id={idx} nombre={proyecto.name} imagen={proyecto.image} />
         })}
       </div>
     </div>
