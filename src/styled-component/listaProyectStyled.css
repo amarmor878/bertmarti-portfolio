@@ -66,3 +66,10 @@
 .skills-container p {
   width: 100%;
 }
+
+.description-container {
+  max-width: 600px; /* establece un ancho máximo para limitar el ancho del contenedor */
+  margin: 0 auto; /* centra el contenedor horizontalmente */
+  text-align: center; /* centra el texto dentro del contenedor */
+  font-size: 0.2em; /* cambia el tamaño de fuente del texto */
+}

@@ -4,7 +4,7 @@ import { ListaProyectos } from '../helpers/ListaProyectos';
 
 //estilos
 import '../styled-component/listaProyectStyled.css'
-
+import { IconBrandGithub } from '@tabler/icons-react';
 
 export const Proyecto = () => {
     const { id } = useParams();
@@ -19,6 +19,9 @@ export const Proyecto = () => {
                     <p>
                         Skills: {proyecto.skills}
                     </p>
+                </div>
+                <div className="description-container">
+                    <a href={proyecto.link} target={'_blank'} rel={'noreferrer'}><IconBrandGithub size={40} /></a>
                 </div>
             </div>
         </div>
