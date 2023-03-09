@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Porfolio realizado con React
 
-## Available Scripts
+¡Bienvenido a mi impresionante portfolio hecho con React! Aquí podrás descubrir mis habilidades y proyectos, todo en un diseño minimalista y fácil de usar. Gracias a los hooks de React, como router-dom y vertical-timeline, la navegación en mi sitio es rápida y suave. Además, ¡no puedo dejar de mencionar la librería gratuita de iconos que utilicé, Tabler-Icons! Con más de 3500 opciones, pude encontrar la iconografía perfecta para cada proyecto.
 
-In the project directory, you can run:
+¿Quieres ver más? ¡Echa un vistazo al código fuente en mi repositorio de GitHub! ¡Gracias por visitar mi portfolio y espero que te guste tanto como a mí!
 
-### `npm start`
+## Despliegue de la app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para desplegar mi aplicación, utilicé la plataforma de hospedaje de sitios web de Netlify.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Primero, subí mi código fuente a GitHub y conecté mi cuenta de Netlify a mi repositorio de GitHub. Luego, configuré mi aplicación en Netlify especificando los comandos de construcción y las variables de entorno necesarias para que mi aplicación funcione correctamente.
 
-### `npm test`
+Cada vez que realizo un cambio en mi repositorio de GitHub, Netlify se encarga automáticamente de construir y desplegar la nueva versión de mi aplicación en línea. Esto significa que no tengo que preocuparme por el proceso de despliegue cada vez que hago cambios en mi sitio web.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Además, Netlify también me proporciona información detallada sobre la velocidad de carga y el rendimiento de mi sitio web, lo que me permite optimizarlo aún más para una experiencia de usuario más fluida.
 
-### `npm run build`
+En resumen, el apartado de despliegue de mi portfolio utiliza Netlify como plataforma de hospedaje para asegurar que mi sitio web esté disponible en línea de manera rápida y segura, sin tener que preocuparme por el proceso de despliegue cada vez que realizo cambios.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Link al portfolio (ACTUALIZANDOSE): https://bertmarti.netlify.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologías utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="36" height="36" /> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="36" height="36" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="36" height="36" /> </a>
 
-### `npm run eject`
+## Cómo utilizar 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Primero, deben abrir su terminal y navegar hasta el directorio donde quieren clonar mi repositorio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Luego, deben ejecutar el siguiente comando para clonar el repositorio:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+bash
+git clone https://github.com/amarmor878/bertmarti-portfolio.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Una vez que se haya clonado el repositorio, deben navegar al directorio del proyecto e instalar las dependencias necesarias ejecutando el siguiente comando:
+```
+bash
+npm install
+```
 
-## Learn More
+Finalmente, para arrancar el proyecto en su navegador, pueden ejecutar el siguiente comando:
+```
+bash
+npm start
+```
+¡Y listo! Ahora tendrán mi portfolio funcionando en su propia máquina. Si quieren editar el contenido y personalizarlo para sus propias necesidades, pueden modificar los archivos de código fuente y actualizar el sitio con su propia información. Espero que esto sea útil para cualquiera que quiera tener una referencia al crear su propio portfolio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Bibliografía
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Documentación oficial de React: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+- Documentacion oficial de css grid: [https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout)
+- Documentación oficial de flexbox: [https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- react-router-dom: https://www.npmjs.com/package/react-router-dom
+```bash
+npm i react-router-dom
+```
+- react-vertical-timeline-component: https://www.npmjs.com/package/react-vertical-timeline-component
+```bash
+npm i react-vertical-timeline-component
+```
+- tabler icons for React: https://tabler.io/docs/icons/react
+```bash
+npm install @tabler/icons-react
+```
 
-### Code Splitting
+## Derechos de autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+© [Amarmor878] [Copyright © 2023]. Todos los derechos reservados.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Todo el contenido de este portfolio, incluyendo pero no limitado a texto, imágenes, gráficos, logotipos, íconos y diseños, son propiedad exclusiva de [Nombre del propietario del portfolio]. Está prohibido cualquier uso no autorizado o reproducción de dicho contenido.
 
-### Making a Progressive Web App
+Los proyectos y trabajos presentados en este portfolio son propiedad de sus respectivos dueños y se muestran únicamente con fines de demostración. Queda prohibido el uso no autorizado o la reproducción de dichos proyectos y trabajos sin el permiso expreso de sus respectivos dueños.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Es importante que cualquier persona que visite nuestro portfolio entienda que todo el contenido es nuestra propiedad exclusiva y no puede ser utilizado sin nuestro permiso. También es importante recordar que cualquier proyecto o trabajo presentado en nuestro portfolio pertenece a su respectivo dueño y no podemos utilizarlos sin su permiso. Con un apartado de derechos de autor en nuestro portfolio, podemos proteger nuestro contenido y demostrar que respetamos los derechos de propiedad intelectual de otros.
