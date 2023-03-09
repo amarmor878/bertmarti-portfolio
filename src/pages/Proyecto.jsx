@@ -22,6 +22,7 @@ export const Proyecto = () => {
                 </div>
                 <div className="description-container">
                     <a href={proyecto.link} target={'_blank'} rel={'noreferrer'}><IconBrandGithub size={40} /></a>
+                    <a href={proyecto.try} target={'_blank'} rel={'noreferrer'}><button className='button'>Try It</button></a>
                 </div>
             </div>
         </div>
